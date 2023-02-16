@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Qube Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <main>
+            <div>
+                <input id="input" type="number" placeholder="Enter the value here">
+            </div>
+
+            <div class="buttons">
+                <button id="Square" onclick="makeASquare()">Square</button>
+                <button id="qube" onclick="makeAQube()">Qube</button>
+                <button id="table" onclick="makeATable()">Table</button>
+            </div>
+
+            <div id="result">
+                <div id="squareR" style="display: none;">
+                    <p style="color: blue;">Square of the number is:</p>
+                    <p id="squareResult"></p>
+                </div>
+
+                <div id="qubeR" style="display: none;">
+                    <p style="color: blue;">Qube of the number is:</p>
+                    <p id="qubeResult"></p>
+                </div>
+
+                <div id="tableR" style="display: none;">
+                    <p style="color: blue;">Table of the number is:</p>
+                    <table border="2" cellspacing="0" cellpadding="0" frame="0" textalign="centre">
+                        <tr>
+                            <th>x1</th><br>
+                            <th>x2</th><br>
+                            <th>x3</th><br>
+                            <th>x4</th><br>
+                            <th>x5</th><br>
+                            <th>x6</th><br>
+                            <th>x7</th><br>
+                            <th>x8</th><br>
+                            <th>x9</th><br>
+                            <th>x10</th>
+                        </tr>
+                        <tr id="tableResult">
+
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

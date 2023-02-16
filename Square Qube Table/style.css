@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
+    background-color: #ffffff;
+}
+main{
+    width: 62vw;
+ height: 85vh;
+ box-shadow: 0 10px 25px rgba(0, 0, 0, 0.275);
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ background-color: rgb(221, 219, 219);
+ border-radius: 40px;
+
+}
+
+#input{
+    width: 286%;
+    height: 197%;
+    box-shadow: 0 10px 25px rgba(255, 0, 0, 0.474);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 9.1rem;
+    outline: none;
+    border: transparent;
+}
+
+.buttons{
+    display: flex;
+flex-direction: row;
+column-gap: 45px;
+position: relative;
+top: 60px;
+width: 29%;
+
+}
+
+#Square{
+    height: 44px;
+width: 88%;
+border-radius: 5px;
+border: 2px solid transparent;
+box-shadow: 9px 5px 22px 11px rgba(30, 11, 244, 0.2); 
+ color: #fff; 
+ background-color: #57e823;
+outline: none;
+}
+#Square:hover{
+    transition: ease-out .05s;
+    color: #57e823;
+    background-color: aliceblue;
+    font-weight: 600;
+    border: 2px solid #57e823;
+
+}
+
+#qube{
+    height: 44px;
+width: 88%;
+border-radius: 5px;
+border: 2px solid transparent;
+box-shadow: 9px 5px 22px 11px rgba(30, 11, 244, 0.2); 
+ color: #fff; 
+ background-color: #57e823;
+outline: none;
+}
+#qube:hover{
+    transition: ease-out .05s;
+    color: #57e823;
+    background-color: aliceblue;
+    font-weight: 600;
+    border: 2px solid #57e823;
+
+}
+
+#table{
+    height: 44px;
+width: 88%;
+border-radius: 5px;
+border: 2px solid transparent;
+box-shadow: 9px 5px 22px 11px rgba(30, 11, 244, 0.2); 
+ color: #fff; 
+ background-color: #57e823;
+outline: none;
+}
+#table:hover{
+    transition: ease-out .05s;
+    color: #57e823;
+    background-color: aliceblue;
+    font-weight: 600;
+    border: 2px solid #57e823;
+
+}
+#result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 60vh;
+    box-shadow: 9px 5px 22px 11px rgba(30, 11, 244, 0.2); 
+    position: relative;
+    top: 8rem;
+}
